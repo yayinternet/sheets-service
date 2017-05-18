@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 //
 // Author: vrk (github.com/vrk)
 // Main script that runs the command-line menu.

@@ -7,13 +7,13 @@
     "googleapis": "^18.0.0",
     "readline": "^1.3.0"
   },
-  "scripts": {
-    "start": "node sheets-service.js"
+  "bin": {
+    "cs193x-sheets": "./sheets-service.js"
   },
   "author": "vrk@stanford.edu",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/vrk/sheets-service.git"
-	}
+  }
 }
