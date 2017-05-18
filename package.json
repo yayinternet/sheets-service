@@ -1,5 +1,5 @@
 {
-  "name": "cs193x-sheets-service",
+  "name": "cs193x-sheets",
   "version": "1.0.0",
   "description": "CS193x tool to create GSA spreadsheets",
   "dependencies": {
