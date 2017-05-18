@@ -93,18 +93,15 @@ async function viewSpreadsheets() {
   // First check to make sure that the user has put their private key
   // in the correct file.
   if (!google.verifyHasKey()) {
-    console.log('**ERROR**: /lib/privateSettings.json not found!!!');
+    console.log('**ERROR**: /privateSettings.json not found!!!');
     console.log();
     console.log('Before you can manage your spreadsheets through this CLI,');
-    console.log('you must store your private key json file in: ');
+    console.log('you must store your private key json file in the current');
+    console.log('directory: ');
     console.log();
-    console.log('  ./lib/privateSettings.json');
+    console.log('  ./privateSettings.json');
     console.log();
-    console.log('For more information on how to create this, check out the');
-    console.log('repo README page:');
-    console.log();
-    console.log('https://github.com/vrk/sheets-service-account-cli');
-    console.log();
+    rl.close();
     return;
   }
 

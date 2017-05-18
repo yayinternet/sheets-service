@@ -1,7 +1,7 @@
 {
-  "name": "sheets-service",
+  "name": "cs193x-sheets-service",
   "version": "1.0.0",
-  "description": "Manage the Google Sheets saved in your Service Account via this command-line script",
+  "description": "CS193x tool to create GSA spreadsheets",
   "dependencies": {
     "google-auth-library": "^0.10.0",
     "googleapis": "^18.0.0",
@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node sheets-service.js"
   },
-  "author": "vrkwork@gmail.com",
+  "author": "vrk@stanford.edu",
   "license": "MIT",
   "repository": {
     "type": "git",
