@@ -52,6 +52,8 @@ async function createSpreadsheet() {
   const choice = await askQuestion('Title of spreadsheet: ');
   const raw = await google.create(choice);
   const fileId = raw.response.spreadsheetId;
+  await google.addPermission(fileId, 'cs193xcoursestaff@gmail.com');
+  console.log('Spreadsheet shared with cs193xcoursestaff@gmail.com.');
   await shareSpreadsheet(fileId);
   console.log(`Spreadsheet created: ${SHEETS_URL_PREFIX}${fileId}`);
 }
