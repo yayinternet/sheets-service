@@ -1,6 +1,6 @@
 {
   "name": "cs193x-sheets",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CS193x tool to create GSA spreadsheets",
   "dependencies": {
     "google-auth-library": "^0.10.0",
